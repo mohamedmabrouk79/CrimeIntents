@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:weightSum="100"
+    android:orientation="vertical">
+    <include layout="@layout/camera_title_view"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="20dp"
+        android:text="@string/Detail"
+        android:id="@+id/textView"
+        android:padding="10dp"
+        style="?android:listSeparatorTextViewStyle"
+        android:layout_weight="1" />
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="40dp"
+        android:layout_marginRight="40dp"
+        android:id="@+id/Date_button" />
+
+    <Button
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginLeft="40dp"
+        android:layout_marginRight="40dp"
+        android:id="@+id/time_button" />
+
+    <CheckBox
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/Solved_Text"
+        android:id="@+id/Solved"
+        android:textSize="20dp"
+        android:layout_marginLeft="20dp"
+        android:padding="10dp"
+        android:layout_weight="1" />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/crime_suspect_text"
+        android:id="@+id/crime_susbect"
+        android:layout_marginLeft="40dp"
+        android:layout_marginRight="40dp" />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/crime_report_text"
+        android:id="@+id/crime_report"
+        android:layout_marginTop="6dp"
+        android:layout_marginLeft="40dp"
+        android:layout_marginRight="40dp" />
+
+
+</LinearLayout>
